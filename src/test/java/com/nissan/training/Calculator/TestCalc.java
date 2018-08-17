@@ -16,5 +16,10 @@ public class TestCalc {
 		Calc c=new Calc();
 		assertEquals(5,c.sub(8,3));
 	}
+	@Test
+	public void testmult() {
+		Calc c=new Calc();
+		assertEquals(24,c.mult(8,3));
+	}
 
 }
